@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Psiquiatría - Salud Mental</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f2f4f7;
+}
+
+header{
+    background-color:#0b3d6e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+article{
+    background-color:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    border-left:5px solid #0b3d6e;
+}
+h1{
+  background-color: white;
+  color: #0b3d6e;
+}
+
+h2{
+    color:#0b3d6e;
+}
+
+footer{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🧠 Psiquiatría</h1>
+    <p>La salud mental y el bienestar emocional</p>
+</header>
+
+<div class="container mt-3">
+    <div class="alert alert-info text-center">
+        🧠 La salud mental es tan importante como la salud física
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+    <a class="navbar-brand" href="#">Menú</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#definición">¿Qué es?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#especialidades">Especialidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#trastornos">Trastornos</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<div class="container mt-4">
+<div class="row">
+
+<div class="col-md-4">
+    <div class="card shadow">
+        <div class="card-body">
+            <h5>💡 Datos curiosos</h5>
+            <p>1 de cada 8 personas padece un trastorno mental.</p>
+            <a href="https://medlineplus.gov/spanish/mentalhealth.html" class="btn btn-warning">Ver más</a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-8">
+
+<!-- DEFINICIÓN -->
+<article id="definición">
+<h2>🧠 ¿Qué es la psiquiatría?</h2>
+
+<p>La psiquiatría es una especialidad médica que se encarga de estudiar los trastornos mentales con la finalidad de diagnosticar, prevenir, evaluar y ayudar a personas con problemas mentales, y asegurar que sea independiente y sea capaz de adaptarse a las circunstancias de su existencia..</p>
+
+<button class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#defExtra">
+Leer más
+</button>
+
+<div class="collapse mt-2" id="defExtra">
+<p>
+ La evaluación psiquiátrica inicial de un individuo empieza con realizar un examen del estado mental. Se pueden realizar exploraciones físicas, pruebas de laboratorio psicológicas algunos casos, se realizan estudios neurofisiológicos, los trastornos mentales se pueden diagnosticar de acuerdo con manuales de diagnóstico, un ejemplo de un manual es la clasificación internacional de enfermedades (CIE), el cual fue editado y redactado por la OMS. La evaluación psiquiátrica incluye exámenes del estado mental, pruebas y diagnósticos según la CIE.
+</p>
+</div>
+</article>
+
+<!-- HISTORIA -->
+<article id="historia">
+<h2>📜 Historia</h2>
+
+<p>El estudio sobre los problemas mentales es prácticamente nuevo, pero existe un acuerdo general que considera que a finales del siglo XVIII se creó la fundación del área psiquiátrica. En el siglo XIX se dio por primera vez un concepto de la "enfermedad mental" y la psiquiatría tuvo un acceso definitivo en la medicina.
+</p>
+<button class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#histExtra">
+Leer más
+</button>
+
+<div class="collapse mt-2" id="histExtra">
+<p>
+Hasta el siglo XX las personas que parecían enfermedades mentales eran encerrados en asilos donde les daban unos "tratamientos Morales", con la finalidad de reducir la "confusión mental" y volver a tener un "razonamiento", luego en los años 30 se promovieron varias prácticas de medicina controvertidas, añadiendo la inducción artificial de convulsiones (se hacía mediante insulina, descargas eléctricas y varias drogas) o por medio de cirugías de retirar partes del cerebro (lobotomía). Estos tratamientos se usaron con total normalidad en psiquiatría, pero se generó mucha oposición que se basaba en pensamientos morales hacia las personas con trastornos mentales .En los años 50 con la creación de nuevos medicamentos, como el antipsicótico clorpromazina, fueron creados en laboratorios y poco a poco fueron reemplazando los procedimientos más crueles.
+En el siglo XX se usaban métodos como lobotomías, luego reemplazados por medicamentos.
+</p>
+</div>
+</article>
+
+<!-- ESPECIALIDADES -->
+<article id="especialidades">
+<h2>👩‍⚕️ Especialidades</h2>
+
+<p>En la psiquiatría existen varias especialidades, al ser un servicio del ser humano, esta medicina se basa del conocimiento que tiene en el área científica el cual se aplica en el alivio del dolor o sufrimiento mental el cual se asocia con los trastornos de salud mental.
+</p>
+
+<button class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#espExtra">
+Leer más
+</button>
+
+<div class="collapse mt-2" id="espExtra">
+<p>
+ en la psiquiatría se a adapta un modelo medico para poder afrontar los problemas mentales, pero se e considera los factores psicológicos y biológicos, objetivo principal es el estudio de las enfermedades mentales , los efectos bioquímicos sobre el comportamiento e interacción con el organismo para afrontar e la vida y sus dificultades. Psiquiatría infantil, geriátrica, urgencias y neuropsiquiatría.
+</p>
+</div>
+</article>
+
+<!-- TRASTORNOS -->
+<article id="trastornos">
+<h2>⚠️ Trastornos mentales</h2>
+
+<p>Los trastornos mentales son problemas graves que cambian el pensamiento,comportamiento,emociones y el estado de animo, complicando la vida diaria de las persona, existen mas de 200 tipos y clases de trastornos , incluyendo fobias,ansiedad,alimentarios y psicóticos.<br/> 
+
+</p>
+
+<button class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#trasExtra">
+Leer más
+</button>
+
+<div class="collapse mt-2" id="trasExtra">
+<p>
+  Algunos trastornos mentales mas comunes son:<br/>
+Trastornos de la alimentación<br/>
+ Trastornos psicóticos<br/>
+ Trastornos del estado del animo<br/> 
+Trastornos del neurodesarrollo<br/>
+</p>
+</div>
+</article>
+
+</div>
+</div>
+</div>
+
+<!-- TRATAMIENTOS -->
+<article id="tratamientos">
+<h2>💊 Tratamientos</h2>
+
+<p>
+Los tratamientos más conocidos son las terapias, el acompañamiento familiar y la medicación en casos graves.
+</p>
+
+<button class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#tratExtra">
+Leer más
+</button>
+
+<div class="collapse mt-2" id="tratExtra">
+<p>
+Los tratamientos mas conocidos y que están comprobados que ayudan bastante en una persona con un problema emocional son las terapias, acompañamiento familiar y medicación en casos mas graves, pero también en algunos casos donde hay un empeoramiento en el estado mental de la persona se tiene que hospitalizar en un hospital psiquiátrico para poder estabilizar su estado emocional, así no es un peligro para sí mismo ni para la sociedad. La mezcla de la terapia psicológica y medicación es lo más efectivo en el momento, y cada plan varía según el diagnóstico de cada persona.
+</p>
+</div>
+
+</article>
+
+<!-- IMPORTANCIA -->
+<article id="importancia">
+<h2>❤️ Importancia</h2>
+
+<p>
+Cuidar la salud mental es esencial porque se relaciona con lo que pensamos, sentimos y hacemos.
+</p>
+
+<button class="btn btn-primary mt-2" data-bs-toggle="collapse" data-bs-target="#impExtra">
+Leer más
+</button>
+
+<div class="collapse mt-2" id="impExtra">
+<p>
+Cuidar la salud mental es esencial y clave porque va conectada directamente con lo que pensamos, actuamos y sentimos, no solo se trata de no tener enfermedades, sino de lograr un equilibrio emocional y psicológico. Acudir a un psicólogo no significa estar “locos”, sino entender mejor nuestras emociones y desarrollar herramientas para manejar el estrés y las preocupaciones.
+</p>
+</div>
+
+</article>
+
+<article id="tabla">
+<h2>📊 Tabla</h2>
+
+<table class="table table-bordered table-hover">
+<tr>
+<th>Trastorno</th>
+<th>Síntomas</th>
+<th>Tratamiento</th>
+</tr>
+
+<tr>
+<td>Depresión</td>
+<td>Tristeza</td>
+<td>Terapia</td>
+</tr>
+
+<tr>
+<td>TDAH</td>
+<td>Inatención</td>
+<td>Medicación</td>
+</tr>
+
+<tr>
+<td>Esquizofrenia</td>
+<td>Alucinaciones</td>
+<td>Medicamentos</td>
+</tr>
+
+</table>
+</article>
+
+</div>
+</div>
+</div>
+
+
+
+<footer>
+<h3>👤 Datos Del Autor</h3>
+<p>Nombre: Maily Arévalo</p>
+<p>Curso: 10°</p>
+<p>Materia: Tecnología</p>
+<p>Institución: Skolmi</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
